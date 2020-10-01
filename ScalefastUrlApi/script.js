@@ -1,5 +1,4 @@
 
-
 function llamar() {
     fetch('http://dummy.restapiexample.com/api/v1/employees')
         .then(res => res.json())
@@ -14,16 +13,6 @@ function llamar() {
 
                     }
                 }
-            }
-            const lista = document.querySelector('#lista');
-            function listado(data) {
-                lista.innerHTML = ``
-                for (let valor of data) {
-                    lista.innerHTML = `
-            <li>${data.data['0'].employee_salary}<li>
-            `
-                }
-
             }
         })
 }
