@@ -10,7 +10,7 @@ function llamar() {
                         const lista = document.querySelector('#lista');
                         let employeeSalaryLow = array[i].employee_name;
                         let employee_salary = array[i].employee_salary;
-                        lista.innerHTML +=`<li>${employee_salary}<li>`
+                        lista.innerHTML +=`<li>${employee_salary}</li>`
                         console.log(employeeSalaryLow, 'Salary:', employee_salary);
                     }
                 }
